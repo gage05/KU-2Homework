@@ -1,6 +1,7 @@
 :root {
     --darkb:#080f77;
     --lightb:#268be9;
+    --wt: #fff;
 }
 
 body {
@@ -12,9 +13,9 @@ body {
 
 /* Header styling */
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: var(--darkb);
+    color: var(--wt);
+    text-align: left;
     padding: 20px;
 }
 
@@ -30,15 +31,20 @@ header {
     height: auto;
 }
 
-/* Navigation styling */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
 nav {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: right;
+    margin-bottom: 10px;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: var(--wt);
     margin: 0 15px;
     cursor: pointer;
 }
