@@ -1,2 +1,2 @@
-# KU-2Homework
+# KU-Homework2
 Second Homework Challenge
