@@ -32,20 +32,24 @@ header {
 }
 
 nav ul {
-    display: flex;
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
     justify-content: space-between;
     min-width: 300px;
+    margin-right: 10px;
 }
 
-nav {
-    text-align: right;
-    margin-bottom: 10px;
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
 }
 
 nav a {
     text-decoration: none;
     color: var(--wt);
-    margin: 0 15px;
+    margin: 0 10px;
     cursor: pointer;
 }
 
