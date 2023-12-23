@@ -185,7 +185,7 @@ nav a {
   }
 
 footer {
-    margin-top: 480px;
+    margin-top: 250px;
     font-size: 20px;
 }
 
@@ -198,16 +198,13 @@ footer ul {
 }
 
 footer ul li {
+    text-decoration: none;
     color: var(--darkb);
     display: inline-block;
-    margin-left: 15px;
-}
-
-footer a {
-    text-decoration: none;
-    margin: 0 10px;
+    margin-left: 15px; 
     cursor: pointer;
 }
+
 
 /* Responsive Layout */
 @media (max-width: 768px) {
