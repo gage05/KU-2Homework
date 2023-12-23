@@ -99,6 +99,26 @@ nav a {
   .card img {
     width: 100%;
   }
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
 /* Responsive Layout */
 @media (max-width: 768px) {
     .work-item {
