@@ -132,17 +132,26 @@ nav a {
     transform: translateX(-50%);
 }
 
-.work-item {
+.work-item1,
+.work-item2 {
     margin: 10px;
     text-align: center;
     cursor: pointer;
 }
 
-.work-item img {
-    max-width: 480px;
-    height: 350px;
+.work-item1 img {
+    max-width: 700px;
+    height: 560px;
     border: 2px solid var(--darkb);
     border-radius: 5px;
+}
+
+.work-item2 img {
+    max-width: 480px;
+    height: 250px;
+    border: 2px solid var(--darkb);
+    border-radius: 5px;
+    margin-top: 60%;
 }
 
 .card {
