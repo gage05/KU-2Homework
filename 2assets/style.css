@@ -93,6 +93,16 @@ nav a {
     justify-content: space-around;
 }
 
+.work-section::after {
+    content: '';
+    position: absolute;
+    top: 44%;
+    bottom: -25%;
+    left: 12%;
+    border-left: 4px solid var(--lightb);
+    transform: translateX(-50%);
+}
+
 .work-item {
     margin: 10px;
     text-align: center;
