@@ -22,12 +22,25 @@ header {
 
 h2 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
 }
 
 h3 {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
+    position: relative;
+    top: -300px;
+}
+
+h3::after {
+    content: '';
+    position: absolute;
+    top: 5%;
+    bottom: -300%;
+    left: 59%;
+    border-left: 4px solid var(--lightb);
+    transform: translateX(-50%);
 }
 
 h4 {
@@ -40,13 +53,15 @@ h5 {
     font-size: 25px;
     text-align: center;
 }
+
 .Gage {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-left: 10px;
 }
 
 .Gage img {
@@ -102,7 +117,7 @@ nav a {
     content: '';
     position: absolute;
     top: 57.5%;
-    bottom: -25%;
+    bottom: -30%;
     left: 12%;
     border-left: 4px solid var(--lightb);
     transform: translateX(-50%);
