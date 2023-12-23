@@ -74,9 +74,9 @@ nav a {
 }
 
 .work-item img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #333;
+    max-width: 480px;
+    height: 350px;
+    border: 2px solid var(--darkb);
     border-radius: 5px;
 }
 
@@ -99,6 +99,10 @@ nav a {
   .card img {
     width: 100%;
   }
+
+footer {
+    margin-top: 480px;
+}
 
 footer ul {
     list-style: none;
