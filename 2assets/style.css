@@ -62,6 +62,16 @@ p {
     color: var(--darkb);
 }
 
+#about p {
+    display: flex;
+    color: var(--darkb);
+    font-size: 17px;
+    text-align: center;
+    margin-top: -375px;
+    margin-left: 820px;
+    margin-right: 10px;
+}
+
 .Gage {
     display: flex;
     flex-direction: column;
@@ -125,7 +135,7 @@ nav a {
 .work-section::after {
     content: '';
     position: absolute;
-    top: 57.5%;
+    top: 50%;
     bottom: -30%;
     left: 12%;
     border-left: 4px solid var(--lightb);
