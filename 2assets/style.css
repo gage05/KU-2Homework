@@ -188,6 +188,7 @@ footer ul {
 }
 
 footer ul li {
+    color: var(--darkb);
     display: inline-block;
     margin-left: 15px;
 }
