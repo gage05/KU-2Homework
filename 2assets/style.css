@@ -30,20 +30,9 @@ h2 {
 h3 {
     color: var(--darkb);
     font-size: 40px;
-    text-align: center;
-    position: relative;
-    top: -300px;
 }
 
-h3::after {
-    content: '';
-    position: absolute;
-    top: 5%;
-    bottom: -415%;
-    left: 59%;
-    border-left: 4px solid var(--lightb);
-    transform: translateX(-50%);
-}
+
 
 h4 {
     color: var(--darkb);
@@ -62,21 +51,26 @@ p {
     color: var(--darkb);
 }
 
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 #about p {
     display: flex;
     color: var(--darkb);
     font-size: 17px;
     text-align: center;
-    margin-top: -375px;
-    margin-left: 820px;
-    margin-right: 10px;
+    margin-top: -30px;
 }
 
 .Gage {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 10px;
@@ -130,16 +124,6 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 100px;
-}
-
-.work-section::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    bottom: -12%;
-    left: 12%;
-    border-left: 4px solid var(--lightb);
-    transform: translateX(-50%);
 }
 
 .work-item1,
@@ -205,89 +189,54 @@ footer ul li {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .work-item1,
-    .work-item2 {
-        flex: 0 0 100%;
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    h2, h3, h4, h5 {
+        text-align: center;
+        margin-left: 0;
     }
 
     #about p {
-        font-size: 14px;
         margin-top: 0;
         margin-left: 0;
-        margin-right: 0;
     }
 
-    h3 {
-        font-size: 30px;
-        top: -200px;
-    }
-
-    h3::after {
-        top: 10%;
-        bottom: -350%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    h4 {
-        font-size: 30px;
-        margin-left: 10px;
-    }
-
-    h5 {
-        font-size: 20px;
+    .Gage {
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
     }
 
     .work-section {
-        font-size: 16px;
-        margin-left: 10px;
+        margin-left: 0;
     }
 
-    .work-section::after {
-        top: 50%;
-        bottom: -8%;
-        left: 50%;
-        transform: translateX(-50%);
+    footer {
+        margin-top: 0;
     }
 }
 
-@media (min-width: 769px) {
-    h2 {
-        font-size: 50px;
-        margin-left: 20px;
+@media screen and (min-width: 1200px) {
+    header {
+        font-size: 24px;
     }
 
-    h3 {
-        font-size: 50px;
-        top: -300px;
+    h2, h3, h4, h5 {
+        font-size: 48px;
     }
 
-    h3::after {
-        top: 5%;
-        bottom: -300%;
-        left: 59%;
-        border-left: 4px solid var(--lightb);
-        transform: translateX(-50%);
-    }
-    h4 {
-        font-size: 50px;
-        margin-left: 35px;
-    }
-
-    h5 {
-        font-size: 30px;
+    .Gage img {
+        width: 15%;
     }
 
     .work-section {
-        font-size: 24px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
-    .work-section::after {
-        top: 50%;
-        bottom: -12%;
-        left: 12%;
-        transform: translateX(-50%);
+    footer {
+        margin-top: 300px;
     }
 }
