@@ -137,6 +137,11 @@ nav a {
     border-radius: 5px;
 }
 
+.work-item1 img:hover,
+.work-item2 img:hover {
+    border: 2px solid red;
+}
+
 .work-item2 img {
     width: 100%;
     height: 250px;
