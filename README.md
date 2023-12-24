@@ -6,7 +6,7 @@ My motivation behind this project was that I wanted to become more proficient at
 
 ## Table of Contents (Optional)
 
-N/A
+![Screenshot of Deployed Application](stuffnjunk.png)
 
 ## Installation
 
@@ -14,38 +14,28 @@ N/A
 
 ## Usage
 
-The nav links at the top of the page will send you to the corresponding part in the body or footer
+The nav links at the top of the page will send you to the corresponding part in the body or footer. The image for the HTML CSS Code Refactor will send you to the deployed application when left clicked. At the bottom of the page, in the Resume section, if you click on "Resume" it will send you to my Resume.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+N/A
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+N/A
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+N/A
 
 ## Features
 
-If your project has a lot of features, list them here.
+N/A
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+N/A
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+N/A
