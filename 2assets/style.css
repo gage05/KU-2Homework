@@ -179,7 +179,8 @@ footer ul {
     list-style: none;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin-bottom: -30px;
+    margin-top: -30px;
     justify-content: space-between;
 }
 
